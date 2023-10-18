@@ -4,7 +4,7 @@ const Education = () => {
   return (
     <section id="education" className="education">
       <div className="section-heading text-center">
-        <h2>education</h2>
+        <h2>Education</h2>
       </div>
       <div className="container">
         <div className="education-horizontal-timeline">
@@ -12,9 +12,9 @@ const Education = () => {
             <div className="col-sm-4">
               <div className="single-horizontal-timeline">
                 <div className="experience-time">
-                  <h2>2008 - 2010</h2>
+                  <h2>2016 - 2020</h2>
                   <h3>
-                    master <span>of </span> computer science
+                    Bachelor <span>of </span> Technology (IT)
                   </h3>
                 </div>
                 <div className="timeline-horizontal-border">
@@ -23,12 +23,13 @@ const Education = () => {
                 </div>
                 <div className="timeline">
                   <div className="timeline-content">
-                    <h4 className="title">university of north carolina</h4>
-                    <h5>north carolina, USA</h5>
+                    <h4 className="title">
+                      Bengal College of Engineering and Technology
+                    </h4>
+                    <h5>Durgapur, West Bengal, India</h5>
                     <p className="description">
-                      Duis aute irure dolor in reprehenderit in vol patate velit
-                      esse cillum dolore eu fugiat nulla pari. Excepteur sint
-                      occana inna tecat cupidatat non proident.
+                      Graduated with the Bachelor's degree in Information and
+                      Technology
                     </p>
                   </div>
                 </div>
@@ -37,10 +38,8 @@ const Education = () => {
             <div className="col-sm-4">
               <div className="single-horizontal-timeline">
                 <div className="experience-time">
-                  <h2>2004 - 2008</h2>
-                  <h3>
-                    bachelor <span>of </span> computer science
-                  </h3>
+                  <h2>2014 - 2016</h2>
+                  <h3>Higher Secondary Education(P.C.M)</h3>
                 </div>
                 <div className="timeline-horizontal-border">
                   <i className="fa fa-circle" aria-hidden="true"></i>
@@ -48,12 +47,12 @@ const Education = () => {
                 </div>
                 <div className="timeline">
                   <div className="timeline-content">
-                    <h4 className="title">university of north carolina</h4>
-                    <h5>north carolina, USA</h5>
+                    <h4 className="title">Maraikura Indramohan Vidyabhaban</h4>
+                    <h5>Raiganj, West Bengal, India</h5>
                     <p className="description">
-                      Duis aute irure dolor in reprehenderit in vol patate velit
-                      esse cillum dolore eu fugiat nulla pari. Excepteur sint
-                      occana inna tecat cupidatat non proident.
+                      Completed my higher secondary education with Physics, Chemistry,
+                      Mathematics and Computer Application as my subjects of
+                      choice.
                     </p>
                   </div>
                 </div>
@@ -62,26 +61,21 @@ const Education = () => {
             <div className="col-sm-4">
               <div className="single-horizontal-timeline">
                 <div className="experience-time">
-                  <h2>2004 - 2008</h2>
-                  <h3>
-                    bachelor <span>of </span> creative design
-                  </h3>
+                  <h2>2013 - 2014</h2>
+                  <h3>Secondary Education</h3>
                 </div>
                 <div className="timeline-horizontal-border">
                   <i className="fa fa-circle" aria-hidden="true"></i>
                   <span
-                    className="single-timeline-horizontal spacial-horizontal-line
-                            "
+                    className="single-timeline-horizontal spacial-horizontal-line"
                   ></span>
                 </div>
                 <div className="timeline">
                   <div className="timeline-content">
-                    <h4 className="title">university of bolton</h4>
-                    <h5>bolton, united kingdome</h5>
+                    <h4 className="title">Raiganj Coronation High School</h4>
+                    <h5>Raiganj, West Bengal, India</h5>
                     <p className="description">
-                      Duis aute irure dolor in reprehenderit in vol patate velit
-                      esse cillum dolore eu fugiat nulla pari. Excepteur sint
-                      occana inna tecat cupidatat non proident.
+                      Completed my secondary education with Bengali, English, Maths, Science, Geography and History
                     </p>
                   </div>
                 </div>

@@ -86,7 +86,9 @@ const Contact = () => {
                     <div className="single-contact-add-info">
                       <h3>phone</h3>
                       <p>+916290338636</p>
-                      <p style={{ marginTop: "0px"}}>+917384495459 <span>{"( Whatsapp )"}</span></p>
+                      <p style={{ marginTop: "0px" }}>
+                        +917384495459 <span>{"( Whatsapp )"}</span>
+                      </p>
                     </div>
                     <div className="single-contact-add-info">
                       <h3>email</h3>

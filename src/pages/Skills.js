@@ -1,4 +1,5 @@
 import React from "react";
+import { PortfolioData } from "../data/myPortfolioData";
 
 const Skills = () => {
   return (
@@ -9,142 +10,37 @@ const Skills = () => {
         </div>
         <div className="container">
           <div className="row">
-            <div className="col-md-6">
-              <div className="single-skill-content">
-                <div className="barWrapper">
-                  <span className="progressText">adobe photoshop</span>
-                  <div className="single-progress-txt">
-                    <div className="progress ">
-                      <div
-                        className="progress-bar"
-                        role="progressbar"
-                        aria-valuenow="90"
-                        aria-valuemin="10"
-                        aria-valuemax="100"
-                        style={{width: '90%'}}
-                      ></div>
-                    </div>
-                    <h3>90%</h3>
+            {Object.values(PortfolioData.Skills).map((skillSet, idx) => {
+              return (
+                <div className="col-md-6" key={idx}>
+                  <div className="single-skill-content">
+                    {skillSet.map((skillItem, index) => {
+                      return (
+                        <div
+                          className="barWrapper"
+                          key={`${skillItem.id}_${index}`}
+                        >
+                          <span className="progressText">{skillItem.name}</span>
+                          <div className="single-progress-txt">
+                            <div className="progress ">
+                              <div
+                                className="progress-bar"
+                                role="progressbar"
+                                aria-valuenow={skillItem.valueNow}
+                                aria-valuemin={skillItem.valueMin}
+                                aria-valuemax={skillItem.valueMax}
+                                style={{ width: skillItem.width }}
+                              ></div>
+                            </div>
+                            <h3>{skillItem.width}</h3>
+                          </div>
+                        </div>
+                      );
+                    })}
                   </div>
                 </div>
-                <div className="barWrapper">
-                  <span className="progressText">adobe illustrator</span>
-                  <div className="single-progress-txt">
-                    <div className="progress ">
-                      <div
-                        className="progress-bar"
-                        role="progressbar"
-                        aria-valuenow="85"
-                        aria-valuemin="10"
-                        aria-valuemax="100"
-                        style={{width: '85%'}}
-                      ></div>
-                    </div>
-                    <h3>85%</h3>
-                  </div>
-                </div>
-                <div className="barWrapper">
-                  <span className="progressText">adobe after effects</span>
-                  <div className="single-progress-txt">
-                    <div className="progress ">
-                      <div
-                        className="progress-bar"
-                        role="progressbar"
-                        aria-valuenow="97"
-                        aria-valuemin="10"
-                        aria-valuemax="100"
-                        style={{width: '97%'}}
-                      ></div>
-                    </div>
-                    <h3>97%</h3>
-                  </div>
-                </div>
-                <div className="barWrapper">
-                  <span className="progressText">sketch</span>
-                  <div className="single-progress-txt">
-                    <div className="progress ">
-                      <div
-                        className="progress-bar"
-                        role="progressbar"
-                        aria-valuenow="90"
-                        aria-valuemin="10"
-                        aria-valuemax="100"
-                        style={{width: '90%'}}
-                      ></div>
-                    </div>
-                    <h3>90%</h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-6">
-              <div className="single-skill-content">
-                <div className="barWrapper">
-                  <span className="progressText">html 5</span>
-                  <div className="single-progress-txt">
-                    <div className="progress ">
-                      <div
-                        className="progress-bar"
-                        role="progressbar"
-                        aria-valuenow="90"
-                        aria-valuemin="10"
-                        aria-valuemax="100"
-                        style={{width: '90%'}}
-                      ></div>
-                    </div>
-                    <h3>90%</h3>
-                  </div>
-                </div>
-                <div className="barWrapper">
-                  <span className="progressText">css 3 animation</span>
-                  <div className="single-progress-txt">
-                    <div className="progress ">
-                      <div
-                        className="progress-bar"
-                        role="progressbar"
-                        aria-valuenow="85"
-                        aria-valuemin="10"
-                        aria-valuemax="100"
-                        style={{width: '85%'}}
-                      ></div>
-                    </div>
-                    <h3>85%</h3>
-                  </div>
-                </div>
-                <div className="barWrapper">
-                  <span className="progressText">communication</span>
-                  <div className="single-progress-txt">
-                    <div className="progress ">
-                      <div
-                        className="progress-bar"
-                        role="progressbar"
-                        aria-valuenow="97"
-                        aria-valuemin="10"
-                        aria-valuemax="100"
-                        style={{width: '97%'}}
-                      ></div>
-                    </div>
-                    <h3>97%</h3>
-                  </div>
-                </div>
-                <div className="barWrapper">
-                  <span className="progressText"> creativity</span>
-                  <div className="single-progress-txt">
-                    <div className="progress ">
-                      <div
-                        className="progress-bar"
-                        role="progressbar"
-                        aria-valuenow="90"
-                        aria-valuemin="10"
-                        aria-valuemax="100"
-                        style={{width: '90%'}}
-                      ></div>
-                    </div>
-                    <h3>90%</h3>
-                  </div>
-                </div>
-              </div>
-            </div>
+              );
+            })}
           </div>
         </div>
       </div>

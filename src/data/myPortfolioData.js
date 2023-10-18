@@ -1,0 +1,72 @@
+export const PortfolioData = {
+  Skills: {
+    setOne: [
+      {
+        id: "s1",
+        name: "React Js",
+        valueNow: "95",
+        valueMin: "10",
+        valueMax: "100",
+        width: "95%",
+      },
+      {
+        id: "s1",
+        name: "Javascript",
+        valueNow: "95",
+        valueMin: "10",
+        valueMax: "100",
+        width: "95%",
+      },
+      {
+        id: "s1",
+        name: "Typescript",
+        valueNow: "90",
+        valueMin: "10",
+        valueMax: "100",
+        width: "90%",
+      },
+      {
+        id: "s1",
+        name: "Git",
+        valueNow: "90",
+        valueMin: "10",
+        valueMax: "100",
+        width: "90%",
+      },
+    ],
+    setTwo: [
+      {
+        id: "s2",
+        name: "CSS",
+        valueNow: "85",
+        valueMin: "10",
+        valueMax: "100",
+        width: "85%",
+      },
+      {
+        id: "s2",
+        name: "HTML",
+        valueNow: "80",
+        valueMin: "10",
+        valueMax: "100",
+        width: "80%",
+      },
+      {
+        id: "s2",
+        name: "React Native",
+        valueNow: "75",
+        valueMin: "10",
+        valueMax: "100",
+        width: "75%",
+      },
+      {
+        id: "s2",
+        name: "Bootstrap",
+        valueNow: "70",
+        valueMin: "10",
+        valueMax: "100",
+        width: "70%",
+      },
+    ],
+  },
+};
