@@ -41,17 +41,8 @@ const MyNavbar = () => {
                 <li className="smooth-menu">
                   <a href="#experience">experience</a>
                 </li>
-                {/* <li className="smooth-menu">
-                  <a href="#profiles">profile</a>
-                </li> */}
                 <li className="smooth-menu">
                   <a href="#portfolio">portfolio</a>
-                </li>
-                {/* <li className="smooth-menu">
-                  <a href="#clients">clients</a>
-                </li> */}
-                <li className="smooth-menu">
-                  <a href="#contact">contact</a>
                 </li>
               </ul>
             </div>
