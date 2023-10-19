@@ -10,12 +10,6 @@ const Footer = () => {
           </p>
         </div>
       </div>
-
-      <div id="scroll-Top">
-        <div class="return-to-top">
-          <i class="fa fa-angle-up " id="scroll-top"></i>
-        </div>
-      </div>
     </footer>
   );
 };

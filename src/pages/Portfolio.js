@@ -14,62 +14,34 @@ const Portfolio = () => {
                 <div className="col-sm-4">
                   <div className="item">
                     <img
-                      src="assets/images/portfolio/p1.jpg"
+                      src="assets/images/portfolio/buktec.png"
                       alt="portfolio image"
                     />
                     <div className="isotope-overlay">
-                      <a href="#">ui/ux design</a>
-                    </div>
-                  </div>
-                  <div className="item">
-                    <img
-                      src="assets/images/portfolio/p2.jpg"
-                      alt="portfolio image"
-                    />
-                    <div className="isotope-overlay">
-                      <a href="#">ui/ux design</a>
+                      <a href="https://thebuktec.com/">Buktec pre-accounting platform</a>
+                      {/* <p className="text-white">Organisation:- MAXIMESS</p> */}
                     </div>
                   </div>
                 </div>
-
                 <div className="col-sm-4">
                   <div className="item">
                     <img
-                      src="assets/images/portfolio/p2.jpg"
+                      src="assets/images/portfolio/jera.png"
                       alt="portfolio image"
                     />
                     <div className="isotope-overlay">
-                      <a href="#">web design</a>
-                    </div>
-                  </div>
-                  <div className="item">
-                    <img
-                      src="assets/images/portfolio/p2.jpg"
-                      alt="portfolio image"
-                    />
-                    <div className="isotope-overlay">
-                      <a href="#">web design</a>
+                      <a href="https://www.jera.co.jp/en">Digital Power Plant Managementt</a>
                     </div>
                   </div>
                 </div>
-
                 <div className="col-sm-4">
                   <div className="item">
                     <img
-                      src="assets/images/portfolio/p4.jpg"
+                      src="assets/images/portfolio/foodify.png"
                       alt="portfolio image"
                     />
                     <div className="isotope-overlay">
-                      <a href="#">web development</a>
-                    </div>
-                  </div>
-                  <div className="item">
-                    <img
-                      src="assets/images/portfolio/p5.jpg"
-                      alt="portfolio image"
-                    />
-                    <div className="isotope-overlay">
-                      <a href="#">web development</a>
+                      <a href="https://mrram-x.github.io/FoodifyApp/">Food Recipe App</a>
                     </div>
                   </div>
                 </div>

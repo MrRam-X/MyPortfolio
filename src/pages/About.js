@@ -69,28 +69,23 @@ const About = () => {
                 <div className="about-list-icon">
                   <ul>
                     <li>
-                      <a href="#">
+                      <a href="https://www.facebook.com/profile.php?id=100007390260193">
                         <i className="fa fa-facebook" aria-hidden="true"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="#">
-                        <i className="fa fa-dribbble" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
+                      <a href="https://twitter.com/Techie_Rama">
                         <i className="fa fa-twitter" aria-hidden="true"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="https://www.linkedin.com/in/ram-prasad-baidya-452766160/">
                         <i className="fa fa-linkedin" aria-hidden="true"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="#">
-                        <i className="fa fa-instagram" aria-hidden="true"></i>
+                      <a href="https://github.com/MrRam-X">
+                        <i className="fa fa-github" aria-hidden="true"></i>
                       </a>
                     </li>
                   </ul>
